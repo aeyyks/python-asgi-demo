@@ -1,8 +1,8 @@
 from handler.http_handler import HttpHandler
-from handler.ws_handler import WebSocketHandler
+from handler.ws_handler import WebSocketRouter
 
 http_app = HttpHandler()
-ws_app = WebSocketHandler()
+ws_app = WebSocketRouter()
 
 
 # Главная точка входа для Uvicorn
